@@ -38,6 +38,7 @@ img {
     height:auto;
 }
 
+
 .btn {background:#135571;color:#fff;
 
 		-webkit-transition: all 250ms;
@@ -97,6 +98,10 @@ h2,
 h3 {
     line-height: 40px;
 }
+h1 {
+	font-size: 22px;
+
+}
 
 h2 {
     font-size: 22px;
@@ -108,7 +113,7 @@ h3 {
 }
 
 h4 {
-    font-size: 17.5px;
+    font-size: 20.5px;
 }
 
 h5 {
@@ -454,7 +459,7 @@ input:focus {
     }
 
     .docs-content {
-        padding-left: 310px;
+        padding-left: 320px;width:780px;
     }
 
 
@@ -468,7 +473,7 @@ input:focus {
         padding: 0 20px;
     }
 
-    section { padding: 3em 0; text-align: left;   background: #fff;}
+    section { padding: 20px 0; text-align: left;   background: #fff;}
     section.centered {
         text-align: center;
     }
@@ -489,3 +494,14 @@ input:focus {
 
 }
 
+/*下面是手机显示的CSS*/
+	.span1{color:#ffffff;margin:6px;}
+	.juzhong{text-align:center;}
+	@media only screen and (max-width: 680px) {
+	.wrapper{margin:5px 6px;}        /*主体部分边距*/
+	.lone-header{text-align:center;}/*导航居中*/
+	.docs-nav{display:none;}    /*隐藏侧栏*/
+	body{background:#ffffff;} /*背景设为白色*/
+	.docs-content{padding-left:12px;width:100%;text-align:left;}
+	h3{text-align:center;} /*3号标题居中*/
+	}
